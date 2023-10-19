@@ -1,0 +1,78 @@
+
+.hgroup{
+  display: flex;
+  justify-content: space-between; /* Adjust as needed for spacing */
+  align-items: flex-start; /* Adjust as needed for alignment */
+}
+/* .App {
+  text-align: left;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  border: 2px solid #896c46;
+  padding: 10px;
+  margin: 5px;
+  /* color: white; */
+  background-color: #C0C0C0;
+  font-size: 20px; /* Adjust the font size as needed */
+  border-radius: 10px;
+  font-style: italic;
+  box-shadow: 1px 1px 3px rgba(244, 181, 181, 0.1);
+  /* Add more styling as desired */
+}
+
+.dis-button {
+  background-color: #000000;
+  color: #eababa;
+  border: none;
+  padding: 15px 50px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  margin-left: 0; /* Set margin-left to 0 to move the button to the left */
+}
+
+
+.dis-button:hover {
+  background-color: #86c242;
+}
+
+.dis-buttons {
+  background-color: #461e42;
+  color: #fff;
+  border: none;
+  margin-top: 10px; 
+  padding-top: 3px;
+  padding:5px 10px;
+  margin-right: 10px;
+  font-size: 15px; /* Adjust the font size as needed */
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
